@@ -1,0 +1,199 @@
+:root{
+    --mycolor:#0A3F41;
+    --fcolor:#0e5558;
+}
+:root{
+    --bodycolor:#0C0E1B;
+}
+:root{
+    --textcolor:greenyellow;
+}
+body{
+    overflow-x: hidden;
+}
+.title_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow:0px 0px 3px whitesmoke;
+}
+.animate:nth-of-type(odd)
+{
+    transform:translateX(-400%);
+}
+.animate:nth-of-type(even)
+{
+    transform:translateX(+400%);
+}
+.animate.show{
+    transform: translateX(0%);
+    transition: all ease 1s;
+}
+.aboutsection{
+    min-height:400px;
+}
+
+#html{
+    background-color: var(--textcolor);
+    animation-name: html;
+    animation-duration: 4s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-play-state:inherit;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 10px;
+
+}
+@keyframes html{
+    0%{
+        background-color: var(--textcolor);
+        width: 0%;
+        text-align: right;
+
+    }
+    100%{
+        background-color: var(--textcolor);
+        width: 50%;
+        text-align: right;
+
+    }
+}
+#html1{
+    background-color: var(--textcolor);
+    animation-name: html1;
+    animation-duration: 4s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-play-state:inherit;
+    border-radius: 10px;
+    padding-right: 10px;
+    text-align: right;
+
+
+}
+@keyframes html1{
+    0%{
+        background-color: var(--textcolor);
+        width: 0%;
+        text-align: right;
+
+    }
+    100%{
+        background-color: var(--textcolor);
+        width: 80%;
+        text-align: right;
+
+    }
+}
+
+#html2{
+    background-color: var(--textcolor);
+    animation-name: html2;
+    animation-duration: 4s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-play-state:inherit;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 10px;
+
+}
+@keyframes html2{
+    0%{
+        background-color: var(--textcolor);
+        width: 0%;
+        text-align: right;
+
+    }
+    100%{
+        background-color: var(--textcolor);
+        width: 60%;
+        text-align: right;
+
+    }
+}
+
+#html3{
+    background-color: var(--textcolor);
+    animation-name: html3;
+    animation-duration: 4s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+    animation-play-state:inherit;
+    border-radius: 10px;
+    text-align: right;
+    padding-right:10px;
+
+}
+@keyframes html3{
+    0%{
+        background-color: var(--textcolor);
+        width: 0%;
+        text-align: right;
+    }
+    100%{
+        background-color: var(--textcolor);
+        width: 70%;
+        text-align: right;
+    }
+}
+.adetails{
+    border-right: 2px solid white;
+    box-sizing: border-box;
+    border-color:var(--textcolor);
+}
+.prow{
+    min-height: 400px;
+    width:100%;
+
+}
+.projectdiv{
+    box-shadow:0px 0px 3px 2px var(--textcolor);
+    color:whitesmoke;
+}
+.formtxt{
+    margin-bottom: 14px;
+    outline: none;
+    background:transparent;
+    margin-top: 5px;
+    border: none;
+    border-bottom:1px solid var(--textcolor);
+    border-radius: 1%;
+
+}
+#tx:focus{
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid var(--textcolor);
+    border-radius: 10px;
+
+}
+#tx{
+    color:whitesmoke;
+    font-size: 15px;
+}
+.telnumber a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.vmail a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.social i{
+    margin: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+    padding:5px;
+}
+.social i:hover{
+    background-color: var(--textcolor);
+    color: var(--mycolor);
+    border-radius: 10px;
+}
